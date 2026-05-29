@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background: #fafafa;
+  color: #111;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 0 24px;
+}
+
+.container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.container p {
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.wallet-buttons {
+  margin-bottom: 24px;
+  display:flex;
+  gap:1rem;
+}
+
+.balance-box {
+  margin-bottom: 24px;
+}
+
+.balance-box span {
+  color: #888;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.balance-box h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #9945ff;
+}
+
+button {
+  padding: 14px 28px;
+  background: #9945ff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.95;
+}
+
+.faucet-card {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  width: 100%;
+}
